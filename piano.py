@@ -23,7 +23,6 @@ def clickotherSO(x,y): #for other SO
     pyautogui.mouseDown(x, y, button="left", duration=duracion)
     time.sleep(0.003)
     pyautogui.mouseUp(button="left")
-
 duracion = 0.005 # Time to sleep mouse move
 while keyboard.is_pressed('q') == False:
     if os.name == 'nt' == True: #Detect what OS is current the script
